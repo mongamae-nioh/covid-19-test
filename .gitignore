@@ -1,0 +1,6 @@
+lambda/ap-northeast-1_COVID19-Hokkaido/*
+!lambda/ap-northeast-1_COVID19-Hokkaido/lambda_function.py
+!lambda/ap-northeast-1_COVID19-Hokkaido/requirements.txt
+
+.ask/
+#.gitignore

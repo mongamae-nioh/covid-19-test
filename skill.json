@@ -1,0 +1,21 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "COVID19-Hokkaido",
+          "sourceDir": "lambda/ap-northeast-1_COVID19-Hokkaido"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "ja-JP": {
+          "name": "北海道新型コロナ情報"
+        }
+      }
+    }
+  }
+}

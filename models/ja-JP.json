@@ -1,0 +1,111 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "北海道新型コロナ情報",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "使い方を教えて",
+            "なにすればいいの",
+            "なにすればいい",
+            "何すればいい",
+            "何をすればいいの",
+            "どうするの",
+            "どうしたらいい",
+            "どうやって使うの",
+            "なにができる",
+            "何できる",
+            "なにができるの",
+            "何ができるの",
+            "どう使うの",
+            "使い方は",
+            "使い方教えて"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "InquiryIntent",
+          "slots": [
+            {
+              "name": "inquiry",
+              "type": "inquiry"
+            }
+          ],
+          "samples": [
+            "{inquiry} はどこにあるの",
+            "{inquiry} の問合せ先は",
+            "{inquiry} の住所は",
+            "{inquiry} の電話番号は",
+            "{inquiry} はどこ",
+            "{inquiry} 知りたい",
+            "{inquiry}",
+            "{inquiry} は",
+            "{inquiry} 教えて",
+            "{inquiry} を教えて"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "受診",
+                "synonyms": [
+                  "来診",
+                  "往診",
+                  "治療",
+                  "診断"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "受信"
+              }
+            },
+            {
+              "name": {
+                "value": "問い合わせ",
+                "synonyms": [
+                  "相談",
+                  "相談窓口",
+                  "問合せ",
+                  "質問",
+                  "確認",
+                  "連絡"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "問い合わせ先",
+                "synonyms": [
+                  "相談先",
+                  "連絡先",
+                  "確認先",
+                  "質問先",
+                  "問合せ先"
+                ]
+              }
+            }
+          ],
+          "name": "inquiry"
+        }
+      ]
+    }
+  },
+  "version": "10"
+}
